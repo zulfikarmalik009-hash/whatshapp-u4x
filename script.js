@@ -21,7 +21,7 @@ function render(){
      <div class="country">${p.flag} ${p.country}</div>
      <div class="old-price">₹199</div>
      <div class="price">₹${p.price} <small>FINAL PRICE</small></div>
-     <div class="stock-note">● OUT OF STOCK • </div>
+     <div class="stock-note">● AVAILABLE STOCK • </div>
      <button class="buy" onclick="openModal(${i})">Buy now</button>
    </article>`;
  });
