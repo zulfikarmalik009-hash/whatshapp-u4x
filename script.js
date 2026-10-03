@@ -22,7 +22,7 @@ function render(){
      <div class="old-price">₹199</div>
      <div class="price">₹${p.price} <small>FINAL PRICE</small></div>
      <div class="stock-note">● OUT OF STOCK • </div>
-     <button class="buy" onclick="openModal(${i})">Get Details</button>
+     <button class="buy" onclick="openModal(${i})">Buy now</button>
    </article>`;
  });
 }
