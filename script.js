@@ -35,7 +35,7 @@ function openModal(i){
 function closeModal(){document.getElementById("modal").classList.remove("show")}
 function contact(){
  const telegramUsername = "Hunterxraj4"; // Change this username if needed
- const message = `Hello! I would like details about this listing:%0A%0A${selected.title}%0A🌍 Country: ${selected.country}%0A💰 Price: ₹${selected.price}`;
+ const message = `Hello! I Buy this whatshapp account :%0A%0A${selected.title}%0A🌍 Country: ${selected.country}%0A💰 Price: ₹${selected.price}`;
  window.location.href = `https://t.me/${telegramUsername}?text=${message}`;
 }
 render();
